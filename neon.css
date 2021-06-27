@@ -1,16 +1,23 @@
+.neon {
+	min-width: 20px;
+	
+}
 
 .neon a {
 	position: relative;
 	display: inline-block;
-	padding: 25px 30px;
+	padding: 5px 5px;
 	margin: auto;
 	color: white;
-	font: 25px;
+	font-size:12px;
 	text-decoration: none;
-	text-transform: uppercase;
 	transition: 0.5s;
 	letter-spacing: 4px;
 	overflow: hidden;
+}
+.neon a:hover{
+	color: lightskyblue;
+	transform:scale(1.1);
 }
 .neon a span {
 	position: absolute;
@@ -20,8 +27,8 @@
 	top: 0;
 	left: -100;
 	width: 100%;
-	height: 2px;
-	background: linear-gradient(90deg,transparent,#03e9f4);
+	height: 3px;
+	background: linear-gradient(90deg,transparent,lightgreen);
 	animation: animate1 1s linear infinite;
 	}
 
@@ -41,7 +48,7 @@
 	right: 0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(180deg,transparent,#03e9f4);
+	background: linear-gradient(180deg,transparent,lightskyblue);
 	animation: animate2 1s linear infinite;
 	animation-delay: 0.25s;
 	}
@@ -63,7 +70,7 @@
 	right: -100;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(90deg,transparent,#03e9f4);
+	background: linear-gradient(90deg,transparent,red);
 	animation: animate3 1s linear infinite;
 	animation-delay: 0.5s;
 	}
@@ -84,7 +91,7 @@
 	left:0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(90deg,transparent,#03e9f4);
+	background: linear-gradient(180deg,transparent,yellow);
 	animation: animate4 1s linear infinite;
 	animation-delay: 0.75s;
 	}
@@ -100,3 +107,14 @@
 		bottom: 100%;
 	}
 }
+
+@media (min-width: 992px) {
+	
+	.neon{
+		margin-top: 25px;
+	}
+	.neon a{
+		padding: 20px 30px;
+	}
+
+	}
