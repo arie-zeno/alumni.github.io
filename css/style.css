@@ -1,0 +1,56 @@
+	.bgg:hover{
+			font-size: 20px;
+			box-shadow: 5px 3px 5px black;
+		}
+	.cor{
+			max-height: 700px;
+			
+		}
+	footer {
+		position: relative;
+		background-color: black;
+		height: 50px;
+		width: 100%;
+		bottom: 0;
+		color: white;
+
+	}
+	.tentang {
+		background-color:#000;
+		min-height: 300px;
+		border-top: solid 2px lightskyblue;
+		color: white ;
+	}
+	hr {
+		width: 220px;
+		border-top: 3px solid #03e9f4;
+	}
+	.album{
+		min-height: 700px;
+		background-color:  	#DCDCDC;
+		border-top: solid 2px black;
+	}
+	.buku{
+		min-height: 700px;
+	}
+
+	.navbar{
+		background-color: #333;
+		z-index: 9;
+
+	}
+
+	@media (min-width: 992px) { 
+
+		/*.cor {
+			margin-top: -77px;
+		}
+
+		.nav-link{
+			color: white !important;
+			text-shadow: 2px 2px 2px black;
+		}
+		.navbar{
+			background-color: transparent;
+		}*/
+	 }
