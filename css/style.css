@@ -44,10 +44,10 @@
 
 	.album .modal{
 		font-family: cursive;
-		color: black;/*
+		color: white;/*
 		background-image: url(../img/tkj2.jpg);*/
 		background-color: rgba(0, 0, 0, 0.75);
-		text-shadow: 1px 1px 1px white;
+		text-shadow: 1px 1px 1px black;
 
 	}
 
