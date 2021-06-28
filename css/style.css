@@ -44,15 +44,15 @@
 
 	.album .modal{
 		font-family: cursive;
-		color: white;/*
+		color: black;/*
 		background-image: url(../img/tkj2.jpg);*/
 		background-color: rgba(0, 0, 0, 0.75);
-		text-shadow: 1px 1px 1px black;
+		text-shadow: 1px 1px 1px white;
 
 	}
 
 	.modal-content{
-		background-color: #000;
+		background-color: #ccc;
 	}
 
 	.buku{
