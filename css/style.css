@@ -36,7 +36,7 @@
 		min-height: 700px;
 		background-color:seagreen;
 		border-top: solid 2px green;
-		color: white;
+		color: black;
 	}
 	.album h1{
 		 text-shadow: 2px 2px 2px black;
@@ -52,7 +52,7 @@
 	}
 
 	.modal-content{
-		background-color: #ddd;
+		background-color: #000;
 	}
 
 	.buku{
